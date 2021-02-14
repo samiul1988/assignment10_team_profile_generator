@@ -19,28 +19,28 @@ test('checks types of employee object properties', () => {
     expect(isEmail(employee.email)).toBeTruthy();
 });
 
-test('gets employee name', () => {
+test("gets employee's name", () => {
     const employee = new Employee('Justin', 23, 'jacaskey@gmail.com');
     
     let name = employee.getName();
     expect(name).toEqual(employee.name);
 });
 
-test('gets employee Id', () => {
+test("gets employee's Id", () => {
     const employee = new Employee('Justin', 23, 'jacaskey@gmail.com');
 
     let id = employee.getId();
     expect(id).toEqual(employee.employeeID.toString());
 });
 
-test('gets employee Email', () => {
+test("gets employee's Email", () => {
     const employee = new Employee('Justin', 23, 'jacaskey@gmail.com');
 
     let email = employee.getEmail();
     expect(email).toEqual(employee.email);
 });
 
-test('gets employee default role', () => {
+test("gets employee's default role", () => {
     const employee = new Employee('Justin', 23, 'jacaskey@gmail.com');
 
     let role = employee.getRole();

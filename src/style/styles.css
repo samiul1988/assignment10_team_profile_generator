@@ -1,3 +1,4 @@
+/* HTML Tag Styles */
 header {
     min-height: 80px;
 }
@@ -6,21 +7,15 @@ main {
     height: 100vh;
 }
 
+/* Main Container Styles */
 .main-container {
     width: 80%;
     margin-top: 60px;
 }
 
+/* Employee Card Styles */
 .employee-card {
     min-width: 16rem;
-}
-.vl {
-    border-left: 2px dashed grey;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
 }
 
 .card-body {

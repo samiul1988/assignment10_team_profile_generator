@@ -21,21 +21,21 @@ test('checks types of engineer object properties', () => {
     expect(engineer.githubUsername).toEqual(expect.any(String));
 });
 
-test('gets engineer name', () => {
+test("gets engineer's name", () => {
     const engineer = new Engineer('Justin', 23, 'jcaskey@gmail.com', 'jcaskey_github');
     
     let name = engineer.getName();
     expect(name).toEqual(engineer.name);
 });
 
-test('gets engineer Id', () => {
+test("gets engineer's Id", () => {
     const engineer = new Engineer('Justin', 23, 'jcaskey@gmail.com', 'jcaskey_github');
 
     let id = engineer.getId();
     expect(id).toEqual(engineer.employeeID.toString());
 });
 
-test('gets engineer Email', () => {
+test("gets engineer's Email", () => {
     const engineer = new Engineer('Justin', 23, 'jcaskey@gmail.com', 'jcaskey_github');
 
     let email = engineer.getEmail();

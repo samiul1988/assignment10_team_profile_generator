@@ -1,4 +1,4 @@
-## Assignment 9: Team Profile Generator
+## Assignment 10: Team Profile Generator
 ---
 ### Topic
 TDD and OOP (Constructors and Classes)
@@ -35,18 +35,32 @@ THEN I exit the application, and the HTML is generated
 
 ## My Actions and Notes
 
-* The code base was obtained from the link provided in the assignment page.
+* The project was developed from scratch.
 * Basic considerations were as follows:
-    * Used "input" prompt type for project title, description, Github username, email, contribution and test sections.
-    * For installation and usage info sections, there are two input options:
+    * Used "input" prompt type for name, id, email, office number, github username and school name.
+    * Used a "choice list" for selecting either an engineer or an intern or finishing the team building process.
+    * Considered Employee ID and Office Number to be numeric only.  
     * The walkthrough video demonstrates couple of examples with different user inputs.
-    * A sample README file generated using this application can be found in the dist folder.  
+    * A sample HTML file generated using this application can be found in the "sample" folder.  
 
-### Demo README file generated from this application
-[Sample HTML File](./dist/README.md)
+### Sample HTML file generated from this application
+[Sample HTML File](./sample/team-profile.html)
+#### Output Screenshot
+![HTML File Output](./assets/images/Sample_assignment10.png)
 
 ### Demo Run
 ![Demo Run](./assets/images/Demo_assignment10.gif)
 
 ### Links of Walkthrough Videos
+The walkthrough video demonstrates the following:
+* all four test suites passing
+    * Due to time limitation, I ran all four tests together using ```npm test```
+    * In the demo run shown in the previous section, I ran individual test as well as full test to show that individual components have also passed
+* how a user would invoke the application from the command line
+* how a user would enter responses to all of the prompts in the application
+* a generated HTML file that matches the user input
+    * when a Github link is clicked, it shows the asssociated github profile in a new tab
+    * when an email is clicked, it opens the default email program and populates the TO field of the email with the address
 
+
+[Click Here to see the video](https://drive.google.com/file/d/1IM8kVVlVYrM2cALU0LDn-ewmJCiiwAD9/view)

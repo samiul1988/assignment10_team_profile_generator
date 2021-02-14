@@ -21,21 +21,21 @@ test('checks types of intern object properties', () => {
     expect(intern.school).toEqual(expect.any(String));
 });
 
-test('gets intern name', () => {
+test("gets intern's name", () => {
     const intern = new Intern('Jessica', 15, 'jessica@uabc.com', 'University of ABC');
     
     let name = intern.getName();
     expect(name).toEqual(intern.name);
 });
 
-test('gets intern Id', () => {
+test("gets intern's Id", () => {
     const intern = new Intern('Jessica', 15, 'jessica@uabc.com', 'University of ABC');
 
     let id = intern.getId();
     expect(id).toEqual(intern.employeeID.toString());
 });
 
-test('gets intern Email', () => {
+test("gets intern's Email", () => {
     const intern = new Intern('Jessica', 15, 'jessica@uabc.com', 'University of ABC');
 
     let email = intern.getEmail();

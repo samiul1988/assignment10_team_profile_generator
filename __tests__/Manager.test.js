@@ -1,7 +1,7 @@
 const Manager = require('../lib/Manager');
 const isEmail = require('validator/lib/isEmail');
 
-test('creates an manager object', () => {
+test('creates a manager object', () => {
     const manager = new Manager('Samiul', 15, 'samiulhc@ymail.com', 48);
 
     expect(manager.name).toBe('Samiul');
@@ -21,21 +21,21 @@ test('checks types of manager object properties', () => {
     expect(manager.officeNumber).toEqual(expect.any(Number));
 });
 
-test('gets manager name', () => {
+test("gets manager's name", () => {
     const manager = new Manager('Samiul', 15, 'samiulhc@ymail.com', 48);
     
     let name = manager.getName();
     expect(name).toEqual(manager.name);
 });
 
-test('gets manager Id', () => {
+test("gets manager's Id", () => {
     const manager = new Manager('Samiul', 15, 'samiulhc@ymail.com', 48);
 
     let id = manager.getId();
     expect(id).toEqual(manager.employeeID.toString());
 });
 
-test('gets manager Email', () => {
+test("gets manager's Email", () => {
     const manager = new Manager('Samiul', 15, 'samiulhc@ymail.com', 48);
 
     let email = manager.getEmail();
