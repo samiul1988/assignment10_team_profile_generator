@@ -51,7 +51,7 @@ THEN I exit the application, and the HTML is generated
 ### Demo Run
 ![Demo Run](./assets/images/Demo_assignment10.gif)
 
-### Links of Walkthrough Videos
+### Link of Walkthrough Video
 The walkthrough video demonstrates the following:
 * all four test suites passing
     * Due to time limitation, I ran all four tests together using ```npm test```
@@ -63,4 +63,4 @@ The walkthrough video demonstrates the following:
     * when an email is clicked, it opens the default email program and populates the TO field of the email with the address
 
 
-[Click Here to see the video](https://drive.google.com/file/d/1IM8kVVlVYrM2cALU0LDn-ewmJCiiwAD9/view)
+[Click here to see the video](https://drive.google.com/file/d/1IM8kVVlVYrM2cALU0LDn-ewmJCiiwAD9/view)
